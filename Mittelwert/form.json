@@ -1,0 +1,32 @@
+{
+    "elements": [
+        {
+            "type": "SelectVariable",
+            "caption": "Source",
+            "name": "Source",
+            "requiredLogging": 1,
+            "requiredTypes": [1, 2]
+        },
+        {
+            "type": "SelectDate",
+            "caption": "Start Date",
+            "name": "StartDate"
+        },
+        {
+            "type": "NumberSpinner",
+            "caption": "Number of Days",
+            "name": "Days",
+            "suffix": "Days"
+        },
+        {
+            "type": "SelectVariable",
+            "caption": "Target",
+            "name": "Target"
+        },
+        {
+            "type": "Button",
+            "caption": "Calculate",
+            "onClick": "MW_Calculate($id);"
+        }
+    ]
+}

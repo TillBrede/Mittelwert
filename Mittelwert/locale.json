@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "de": {
+            "Source": "Quelle",
+            "Start Date": "Startdatum",
+            "Number of Days": "Anzahl Tage",
+            "Target": "Ziel",
+            "Calculate": "Berechnen",
+            "Days": "Tage"
+        }
+    }
+}
